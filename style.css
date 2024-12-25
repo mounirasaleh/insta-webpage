@@ -1,0 +1,107 @@
+.flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -560px;
+    gap: 30px;
+    
+    
+}
+.story img{
+
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    border: 3px solid rgb(211, 48, 75);
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 20px;
+
+
+}
+.arrows{
+
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+
+}
+
+.story-usernames {
+     
+    display: flex;
+    flex-direction: column;
+
+
+}
+.profile img{
+     margin-right: 6px; 
+     width: 40px;
+     border-radius: 50%;
+
+}
+.post{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 320px;
+
+}
+.audio{
+    font-size: 15px;
+}
+.d{
+    opacity: 50%;
+}
+.dots{
+    margin-left: 300px;
+    font-weight: bolder;
+}
+.main-post{
+    margin-top: 10px;
+    margin-left: 320px;
+}
+.right-side{
+    display: flex;
+    flex-direction:column;
+    margin-top: -770px;
+    margin-left: 1040px;
+}
+.suggested{
+    opacity: 50%;
+    font-size: small;
+}
+.see-all{
+    font-weight: 500;
+    font-size: small;
+    margin-left: 70px ;
+}
+
+.follow{
+    color: hsl(207, 83%, 56%);
+    margin-left: 60px;
+    font-weight: 900;
+
+}
+.followed-by{
+    font-size: smaller;
+    opacity: 55%;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+.about{
+    margin-top: 30px;
+    opacity: 50%;
+    font-size: 12px;
+}
